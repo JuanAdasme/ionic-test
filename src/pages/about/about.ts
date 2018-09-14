@@ -7,6 +7,17 @@ import { NavController } from 'ionic-angular';
 })
 export class AboutPage {
 
+  list : Array<any> = [
+    {
+      titulo: "título",
+      color: "#444"
+    },
+    {
+      titulo: "Segundo elemento",
+      color: "#999"
+    }
+  ];
+
   constructor(public navCtrl: NavController) {
 
   }
